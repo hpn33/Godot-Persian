@@ -10,11 +10,17 @@ config_version=4
 
 _global_script_classes=[ {
 "base": "Node",
+"class": "PersianLang",
+"language": "GDScript",
+"path": "res://addons/hp.persian.text/lang/PersianLang.gd"
+}, {
+"base": "Node",
 "class": "SourceReader",
 "language": "GDScript",
 "path": "res://addons/hp.persian.text/SourceReader.gd"
 } ]
 _global_script_class_icons={
+"PersianLang": "",
 "SourceReader": ""
 }
 
