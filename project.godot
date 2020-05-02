@@ -1,0 +1,42 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Node",
+"class": "SourceReader",
+"language": "GDScript",
+"path": "res://addons/hp.persian.text/SourceReader.gd"
+} ]
+_global_script_class_icons={
+"SourceReader": ""
+}
+
+[application]
+
+config/name="Godot Persian"
+run/main_scene="res://scene/Main.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+fa="*res://addons/hp.persian.text/Persian.gd"
+
+[display]
+
+window/size/width=1047
+window/size/height=613
+
+[editor_plugins]
+
+enabled=PoolStringArray( "hp.persian.text" )
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"

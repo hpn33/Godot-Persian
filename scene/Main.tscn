@@ -1,0 +1,76 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://scene/Main.gd" type="Script" id=1]
+[ext_resource path="res://font/Vazir.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 22
+font_data = ExtResource( 2 )
+
+[node name="main" type="Node"]
+script = ExtResource( 1 )
+
+[node name="Label" type="Label" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 11.432
+margin_top = 18.5204
+margin_right = -7.56799
+margin_bottom = -556.48
+custom_fonts/font = SubResource( 1 )
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 12.864
+margin_top = 72.6972
+margin_right = -10.136
+margin_bottom = -502.303
+custom_fonts/font = SubResource( 1 )
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label3" type="Label" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_top = 132.602
+margin_right = -6.0
+margin_bottom = -442.398
+custom_fonts/font = SubResource( 1 )
+align = 2
+
+[node name="Label4" type="Label" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 532.74
+margin_top = 170.38
+margin_right = -14.2605
+margin_bottom = -242.62
+grow_horizontal = 0
+custom_fonts/font = SubResource( 1 )
+align = 2
+autowrap = true
+
+[node name="Label5" type="Label" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 15.1339
+margin_top = 392.124
+margin_right = -531.866
+margin_bottom = -20.8755
+grow_horizontal = 0
+custom_fonts/font = SubResource( 1 )
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Camera2D" type="Camera2D" parent="."]
+anchor_mode = 0
